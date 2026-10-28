@@ -1,0 +1,23 @@
+# IVOLDATA
+
+> IVOLDATA, SOCIEDAD ANÓNIMA es una empresa guatemalteca de tecnología para negocios, con sede en Villa Nueva, Guatemala. Ofrece infraestructura de red, seguridad electrónica, soporte técnico mensual y automatización con inteligencia artificial. Atiende los 22 departamentos de Guatemala.
+
+- Sitio web: https://ivoldata.com/
+- Teléfono y WhatsApp: +502 4028 9455
+- Correo: info@ivoldata.com
+- Horario: lunes a viernes de 8:00 a 18:00; emergencias 24/7 para clientes TechSoporte
+
+## Servicios
+
+- TechSoporte: planes de soporte técnico mensual (Esencial, Empresa, Integral) para oficinas, restaurantes y comercios. Cubren redes WiFi, red local, cámaras y soporte a usuarios, de forma remota, por llamada o en sitio.
+- TechSoporte Manos remotas: técnico en sitio dirigido por el ingeniero del cliente, para integradores, proveedores de internet y empresas con equipos en Guatemala. Ciudad de Guatemala en 4 horas o menos; interior en 24 horas o menos. Por evento o bolsa de horas mensual.
+- Infraestructura de red: cableado estructurado Cat6/Cat6A, racks y gabinetes (RackPro), WiFi empresarial, configuración de routers, switches, firewalls y centrales IP (Cisco, MikroTik, TP-Link Omada, Yeastar).
+- Seguridad electrónica: cámaras IP con monitoreo desde el celular y control de acceso.
+- CableHome: cableado para casas en construcción desde la obra gris.
+- Automatización con IA: reportes, procesos repetitivos y control de gastos por WhatsApp.
+
+## Páginas
+
+- [Inicio]({SITIO})
+- [Política de privacidad]({SITIO}privacidad.html)
+- [Términos del servicio]({SITIO}terminos.html)

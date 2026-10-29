@@ -19,6 +19,13 @@
 
 ## Páginas
 
-- [Inicio]({SITIO})
-- [Política de privacidad]({SITIO}privacidad.html)
-- [Términos del servicio]({SITIO}terminos.html)
+- [Inicio](https://ivoldata.com/)
+- [Soporte técnico para empresas (TechSoporte)](https://ivoldata.com/soporte-tecnico.html)
+- [Instalación de cámaras de seguridad y control de acceso](https://ivoldata.com/camaras-de-seguridad.html)
+- [Cableado estructurado Cat6 y Cat6A, racks y gabinetes](https://ivoldata.com/cableado-estructurado.html)
+- [Manos remotas (remote hands) en Guatemala](https://ivoldata.com/manos-remotas.html)
+- [Diseño y configuración de redes y WiFi empresarial](https://ivoldata.com/redes-y-wifi.html)
+- [CableHome: cableado de red para casas en construcción](https://ivoldata.com/cablehome.html)
+- [Automatización de procesos con inteligencia artificial](https://ivoldata.com/automatizacion-ia.html)
+- [Política de privacidad](https://ivoldata.com/privacidad.html)
+- [Términos del servicio](https://ivoldata.com/terminos.html)

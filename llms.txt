@@ -2,6 +2,8 @@
 
 > IVOLDATA, SOCIEDAD ANÓNIMA es una empresa guatemalteca de tecnología para negocios, con sede en Villa Nueva, Guatemala. Ofrece infraestructura de red, seguridad electrónica, soporte técnico mensual y automatización con inteligencia artificial. Atiende los 22 departamentos de Guatemala.
 
+El nombre significa Inteligencia + Evolución + Datos (I-VOL-DATA): cómo han evolucionado los datos y la importancia que hoy tienen con la inteligencia artificial.
+
 - Sitio web: https://ivoldata.com/
 - Teléfono y WhatsApp: +502 4028 9455
 - Correo: info@ivoldata.com

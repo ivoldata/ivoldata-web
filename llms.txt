@@ -19,7 +19,7 @@ El nombre significa Inteligencia + Evolución + Datos (I-VOL-DATA): cómo han ev
 - Infraestructura de red: cableado estructurado Cat6/Cat6A, racks y gabinetes (RackPro), WiFi empresarial, configuración de routers, switches, firewalls y centrales IP (Cisco, MikroTik, TP-Link Omada, Yeastar).
 - Seguridad electrónica: cámaras IP con monitoreo desde el celular y control de acceso.
 - CableHome: cableado para casas en construcción desde la obra gris.
-- Automatización con IA: reportes, procesos repetitivos y control de gastos por WhatsApp.
+- Automatización de procesos y agentes de IA: reportes, aprobaciones, procesos repetitivos y asistentes por WhatsApp como el control de gastos.
 
 ## Páginas
 

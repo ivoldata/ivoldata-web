@@ -478,6 +478,20 @@ body { -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; te
   .duo-tabs button.on { background:var(--card); color:var(--navy); box-shadow:0 1px 3px rgba(16,40,64,.15); }
   .duo.v-t .col-s, .duo.v-s .col-t { display:none; }
 }
+
+.pr-top { display:flex; gap:20px; align-items:center; background:#FFFFFF; color:#16283A; border-radius:20px; padding:28px 30px; box-shadow:0 18px 40px -18px rgba(0,0,0,.5); margin-bottom:16px; }
+.pr-top h3 { font-size:clamp(20px, 2.2vw, 26px); line-height:1.25; color:#122A44; margin-bottom:6px; }
+.pr-top p { color:#4A5E73; font-size:16px; }
+.pr-top .pic { width:56px; height:56px; border-radius:16px; background:#5AA9DD; color:#FFFFFF; }
+.pr-grid { display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:14px; }
+@media (max-width: 900px) { .pr-grid { grid-template-columns:repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .pr-grid { grid-template-columns:1fr; } .pr-top { flex-direction:column; align-items:flex-start; padding:22px; } }
+.pr { background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.14); border-radius:16px; padding:20px; }
+.pr h3 { font-size:17px; color:#FFFFFF; margin:12px 0 6px; line-height:1.3; }
+.pr p { font-size:14.5px; color:#C3D3E3; }
+.pic { display:inline-flex; align-items:center; justify-content:center; flex-shrink:0; width:42px; height:42px; border-radius:12px; background:rgba(90,169,221,.18); color:#8CC6EC; }
+.pr-mas { display:flex; gap:14px; align-items:center; margin-top:16px; padding:18px 22px; border-radius:16px; border:1px dashed rgba(140,198,236,.6); }
+.pr-mas p { color:#C3D3E3; font-size:16px; } .pr-mas b { color:#FFFFFF; }
 </style>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="ico" viewBox="2 2 44 44"><path d="M9 15 24 8M9 15 24 24M9 15 24 40M9 33 24 8M9 33 24 24M9 33 24 40M24 8 39 24M24 24 39 24M24 40 39 24" stroke="#5AA9DD" stroke-width="2.6" stroke-linecap="round" fill="none"/><g fill="currentColor"><circle cx="9" cy="15" r="4.3"/><circle cx="9" cy="33" r="4.3"/><circle cx="24" cy="8" r="4.3"/><circle cx="24" cy="24" r="4.3"/><circle cx="24" cy="40" r="4.3"/></g><circle cx="39" cy="24" r="5.6" fill="#5AA9DD"/></symbol></svg>
@@ -544,13 +558,12 @@ body { -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; te
 </section>
 
 
-<section class="sec oscura">
+<section class="sec oscura" id="problemas">
 <div class="in">
-<div class="sec-head"><span class="eyebrow">Lo que cambia</span><h2>Conecta todo en un solo lugar.</h2></div>
-<div class="av2">
-<div class="a"><h3>Antes</h3><ul><li><span class="x">✕</span>Hojas de Excel que nadie actualiza</li><li><span class="x">✕</span>Fotos sueltas en chats personales</li><li><span class="x">✕</span>Llamadas para cuadrar anticipos</li><li><span class="x">✕</span>Facturas perdidas o que llegan tarde</li></ul></div>
-<div class="b"><h3 class="con-h"><span class="logo2 mini" role="img" aria-label="Connect by IVOLDATA"><svg class="ic" aria-hidden="true"><use href="#ico"/></svg><span class="tx" aria-hidden="true"><span class="cn">Connect</span><span class="by">by <b>IVOL</b><i>DATA</i></span></span></span></h3><ul><li><span class="v">✓</span>Un chat para registrar</li><li><span class="v">✓</span>La factura guardada como evidencia</li><li><span class="v">✓</span>Saldos y reportes al día</li><li><span class="v">✓</span>Control con sus reglas</li></ul></div>
-</div>
+<div class="sec-head"><span class="eyebrow">Problemas que resolvemos</span><h2>Lo que deja de quitarle tiempo y dinero.</h2></div>
+<div class="pr-top"><span class="pic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12h13M12 6l6 6-6 6"/><path d="M21 4v16"/></svg></span><div><h3>Evite que su personal viaje a la oficina a entregar facturas y cuadrar gastos.</h3><p>Cada gasto se registra desde el chat, en el momento. No pierda tiempo ni dinero en viajes innecesarios.</p></div></div>
+<div class="pr-grid"><div class="pr"><span class="pic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 9h8M8 13h5"/></svg></span><h3>No busque facturas en chats diferentes.</h3><p>Todo queda en un mismo lugar, con la foto guardada. Nada perdido, mojado ni ilegible.</p></div><div class="pr"><span class="pic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z"/></svg></span><h3>Sepa en qué se va cada quetzal.</h3><p>Un detalle claro de lo que gasta su personal: cada gasto con su categoría, persona y fecha.</p></div><div class="pr"><span class="pic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></svg></span><h3>Compras de materiales, también.</h3><p>Si su personal compra un material para el trabajo, se registra igual, con su factura.</p></div><div class="pr"><span class="pic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="20" height="13" rx="2"/><path d="M2 10h20M6 15h4"/></svg></span><h3>El saldo del anticipo, sin llamar a nadie.</h3><p>Lo depositado contra lo gastado de cada persona, siempre al día.</p></div><div class="pr"><span class="pic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/><path d="M12 8v4M12 16h.01"/></svg></span><h3>No pague lo que no corresponde.</h3><p>Cada categoría tiene su tope. Lo que se pasa queda en revisión.</p></div><div class="pr"><span class="pic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4M8 14l2.5 2.5L16 12"/></svg></span><h3>Cierre de mes sin perseguir a nadie.</h3><p>El reporte para su contador sale listo, en Excel.</p></div></div>
+<div class="pr-mas"><span class="pic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg></span><p><b>¿Su personal tiene otros gastos?</b> Díganos cuáles quiere registrar y adaptamos Connect a su empresa: categorías, topes y reglas a su medida.</p></div>
 </div>
 </section>
 
